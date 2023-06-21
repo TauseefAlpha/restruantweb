@@ -18,7 +18,7 @@ const routes = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route element={<PublicRoutes />}>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />

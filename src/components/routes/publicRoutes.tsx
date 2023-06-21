@@ -5,7 +5,7 @@ const PublicRoutes: React.FC = () => {
   return !localStorage.getItem("accessToken") ? (
     <Outlet />
   ) : (
-    <Navigate to="/home" replace />
+    <Navigate to="/" replace />
   );
 };
 
